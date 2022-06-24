@@ -58,4 +58,6 @@ We found that drawings with both too few and too many object parts tended to be 
 We additionally observed wide item variability both between and within broad object categories (i.e., small animals, large animals, vehicles, household objects), in which some categories tended to have more variation in the number of depicted parts and variation in the relative strength of a quadratic relationship to their recognizability.
 This variability in recognizability suggests that as children gain more semantic knowledge object categories, they may need to adjust how many parts of object they should choose to include in their drawings in order to produce more recognizable drawings.
 
-## See `/experiments/` for our web experiment for collecting the semantic annotations
+## How to navigate this repository
+
+See `/experiments/` for our web experiment for collecting the semantic annotations. This experiment was built using JsPsych: https://www.jspsych.org/7.2/
