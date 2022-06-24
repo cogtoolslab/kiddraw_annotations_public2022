@@ -62,6 +62,6 @@ This variability in recognizability suggests that as children gain more semantic
 
 See `/experiments/` for our web experiment for collecting the semantic annotations. This experiment was built using JsPsych: https://www.jspsych.org/7.2/
 
-• `/data/` contains files that practice annotations trials
-• `/js/` contains JsPsych plugins, as well as custom written plugins (e.g., `jspsych-stroke-kid-annotations.js`)
+• `/data/` contains files that practice annotations trials <br>
+• `/js/` contains JsPsych plugins, as well as custom written plugins (e.g., `jspsych-stroke-kid-annotations.js`) <br>
 • `/stim/` contains instructions files
