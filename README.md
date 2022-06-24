@@ -23,7 +23,7 @@ These recognizability scores were generated from four different “guessing game
 Children were presented with a drawing on the same museum kiosk, and asked to guess which of four object categories each drawing represented (Long et al., 2021).
 Children indicated their guess using touchscreen buttons with canonical photographs of each possible category. All distractors were from the same broad category (e.g., vehicles).
 
-<i>See this repo for more information: https://github.com/brialorelle/kiddraw</i>
+<i>See this repo for more information about Long, B., Fan, J., Chai, R., & Frank, M. C. (2021): https://github.com/brialorelle/kiddraw</i>
 
 ### Crowdsourcing semantic annotations of the dataset
 
