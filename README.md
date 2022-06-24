@@ -43,7 +43,7 @@ Overall, children prioritized certain parts of object categories over others, by
 
 #### Do older children draw more object parts?
 <p align="center" style="font-size: smaller">
-  <img width="65%" src="cogsci_paper/repo_mats/age_drawer.png"></img>
+  <img width="65%" src="repo_mats/age_drawer.png"></img>
 </p>
 
 These part decompositions also revealed both substantial variation in the number of parts that children emphasized across development. 
