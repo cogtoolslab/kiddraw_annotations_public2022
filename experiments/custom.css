@@ -1,0 +1,478 @@
+/*
+ * Custom CSS for this project.
+ *
+ * This stylesheet provides additional styling information
+ * on top of what JsPsych already provides.
+ */
+/* Container holding jsPsych content */
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.jspsych-display-element {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-widget-header {
+  padding: 0.2em;
+}
+
+#List {
+  width: 200px;
+  margin: auto;
+  float: left;
+  list-style-type: none;
+}
+
+#nextSketch {
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  float: bottom;
+  height: 30%;
+}
+
+.progress {
+  margin: auto;
+  width: 80%;
+  float: bottom;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+canvas {
+  /* position: absolute; */
+  margin: auto;
+  position: inline-block;
+  display: block;
+  bottom: 30%;
+  left: 40%;
+  width: 300px;
+  height: 300px;
+  /*top: 100px;*/
+}
+
+.wrapper {
+  max-height: 100%;
+  max-width: 100%;
+  display: inline;
+  ;
+}
+
+[class|="confetti"] {
+  position: absolute;
+}
+
+.red {
+  background-color: #e94a3f;
+}
+
+.yellow {
+  background-color: #faa040;
+}
+
+.blue {
+  background-color: #5fc9f5;
+}
+
+.jspsych-display-element:focus {
+  outline: none;
+}
+
+.jspsych-content-wrapper {
+  display: flex;
+  margin: auto;
+  flex: 1 1 100%;
+  width: 100%;
+}
+
+.jspsych-content {
+  max-width: 95%;
+  /* this is mainly an IE 10-11 fix */
+  text-align: center;
+  margin: auto;
+  /* this is for overflowing content */
+}
+
+.jspsych-content p {
+  text-align: left;
+}
+
+.jspsych-top {
+  align-items: flex-start;
+}
+
+.jspsych-middle {
+  align-items: center;
+}
+
+/* fonts and type */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+.jspsych-display-element {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+/* Form elements like input fields and buttons */
+.jspsych-display-element input[type="text"] {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+/* borrowing Bootstrap style for btn elements, but combining styles a bit */
+.jspsych-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  cursor: pointer;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.jspsych-btn:hover {
+  background-color: #ddd;
+  border-color: #aaa;
+}
+
+.jspsych-btn:disabled {
+  background-color: #eee;
+  color: #aaa;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* jsPsych progress bar */
+#jspsych-progressbar-container {
+  color: #555;
+  border-bottom: 1px solid #dedede;
+  background-color: #f9f9f9;
+  margin-bottom: 1em;
+  text-align: center;
+  padding: 8px 0px;
+  width: 100%;
+  line-height: 1em;
+}
+
+#jspsych-progressbar-container span {
+  font-size: 14px;
+  padding-right: 14px;
+}
+
+#jspsych-progressbar-outer {
+  background-color: #eee;
+  width: 50%;
+  margin: auto;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#jspsych-progressbar-inner {
+  background-color: #aaa;
+  width: 0%;
+  height: 100%;
+}
+
+/* Control appearance of jsPsych.data.displayData() */
+#jspsych-data-display {
+  text-align: left;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+#trialNum {
+  text-align: right;
+  font-size: 22px;
+  position: absolute;
+  right: -120px;
+  top: 5px;
+  /* colore; */
+  /* border: 2px blue solid; */
+}
+
+#buttonWrapper {
+  border: 2px solid white;
+  height: 50px;
+}
+
+#nextButton {
+  margin: auto;
+  display: none;
+}
+
+.myCanvasWrapper {
+  height: 500px;
+  border: 2px solid red;
+  position: absolute;
+  z-index: 1;
+}
+
+#myCanvas {
+  left: -50px;
+  top: 500px;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: solid 2px #999;
+  /* border: solid 2px blue; */
+  z-index: 1;
+}
+
+canvas[resize] {
+  width: 100%;
+  height: 100%;
+}
+
+.cueCanvasWrapper {
+  height: 500px;
+  position: absolute;
+  left: -150px;
+  z-index: 1;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#ref {
+  width: 619.10px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  left: -60px;
+  border: solid 2px #999;
+  /* display: none; */
+}
+
+/* buttons for normal labels*/
+.buttons, 
+.buttons_sym,
+#other{
+  width: 150px;
+  height: 36px;
+  padding-left: 5px;
+  color: black;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button-text {
+  font-size: 20px !important;
+}
+
+#other {
+  margin-top: -15px;
+}
+
+.buttons{
+  border: solid 2px #999;
+}
+
+.buttons_sym,
+#other, 
+#unintelligible {
+  /* border: solid 2px #4f47e6; */
+  border: solid 2px gray;
+}
+
+/* buttons for symbol labels */
+.symButtons {
+  width: 150px;
+  height: 36px;
+  border: solid 2px #999;
+  padding-left: 5px;
+  color: black;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#buttonGallery{
+  position: absolute;
+  top: 0px;
+  left: 125px;
+  height: 750px;
+  border: solid 2px #999;
+}
+
+#special_labels {
+  font-weight: bold;
+  /* border: 2px solid blue; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#whiteOut {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 740px;
+  width: 160px;
+  background-color: white;
+  opacity: 75%;
+  display: none;
+}
+
+#submit {
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#custom_label {
+  margin:10px
+}
+
+.clicked {
+  background-color: grey !important;
+}
+
+.instructions {
+  padding-left: 50px;
+  top: 500px;
+  /* border: 2px red solid; */
+}
+
+#container {
+  top: 50px;
+  left: 275px;
+  position: absolute;
+  display: none;
+  /* border: 2px solid red; */
+}
+
+#videoCue {
+  height: 500px;
+  border: solid 2px #999;
+}
+
+#videoInstructions {
+  padding-left: 100px;
+  top: 500px;
+  /* border: 2px red solid; */
+}
+
+.introImgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+}
+
+.introExamples {
+  border: 2px solid gray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.quizImgs {
+  display: block;
+  /* margin-left: auto; */
+  margin-right: auto;
+  height: 350px;
+  border: 2px solid gray;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#error {
+  top: 575px;
+  left: 300px;
+  width: 500px;
+  position: absolute;
+  color: red;
+  display: none;
+  /* border: 2px solid blue; */
+}
+
+#error_2 {
+  top: 665px;
+  left: 570px;
+  position: absolute;
+  color: red;
+  display: none;
+}
+
+#textarea {
+  /* border: solid 2px blue; */
+  top: 620px;
+  left: 570px;
+  position: absolute;
+  display: none;
+}
+
+#ref_word {
+  font-size: 100px;
+  text-align: center;
+  padding: 175px 0;
+  /* border: 2px solid blue; */
+}
+
+category_name {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color:#4f47e6;
+  font-size: 30px !important;
+}
+
+#symWhiteOut {
+  position: absolute;
+  top: 0px;
+  left: 125px;
+  height: 700px;
+  border: solid 2px #999;
+  display: none;
+}
+
+#other:hover, 
+#symbols:hover, 
+#unintelligible:hover, 
+#symUnintelligible:hover {
+  background-color: #a8e1b8 !important;
+}
+
+#symbolInstructions {
+  display: none;
+}
