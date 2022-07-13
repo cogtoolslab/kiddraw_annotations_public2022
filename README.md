@@ -5,7 +5,7 @@ Children produce increasingly more recognizable drawings of object concepts thro
 What drives this improvement? Here we explore the role of children’s ability to include relevant parts of those objects in their drawings.
 
 <p align="center" style="font-size: smaller">
-  <img width="100%" src="repo_mats/flowchart.png"></img>
+  <img width="100%" src="repo_mats/flowchart_2.png"></img>
 </p>
 
 ### Developmental drawing dataset
