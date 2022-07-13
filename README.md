@@ -28,7 +28,7 @@ Children indicated their guess using touchscreen buttons with canonical photogra
 ### Crowdsourcing semantic annotations of the dataset
 
 <p align="center" style="font-size: smaller">
-  <img width="100%" src="repo_mats/example_cat.gif"></img>
+  <img width="75%" src="repo_mats/example_cat.gif"></img>
 </p>
 
 We crowdsourced part tags for every pen stroke in 2,160 drawings of 16 common object categories that had been produced by children between 4 and 8 years old. 
